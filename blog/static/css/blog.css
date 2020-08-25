@@ -1,5 +1,5 @@
 .page-header {
-    background-color: #ff9400;
+    background-color: #009999;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -8,10 +8,6 @@
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
-}
-
-.content {
-    margin-left: 40px;
 }
 
 h1, h2, h3, h4 {
@@ -37,10 +33,49 @@ h1, h2, h3, h4 {
     margin-right: 20px;
 }
 
-.post {
-    margin-bottom: 70px;
+.content {
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
 }
 
-.post h1 a, .post h1 a:visited {
+.post {
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 40%;
+    border: 2px solid #009999;
+    box-shadow: 5px 10px #009999;
+    border-radius:6px;
+    padding: 10px;
+    text-align: center;
+    color: #009999;
+    float: left;
+}
+
+.detail {
+    margin-top: 30px;
+    margin-right: 30px;
+    border: 2px solid #009999;
+    box-shadow: 5px 10px #009999;
+    border-radius:6px;
+    padding: 10px;
+    text-align: center;
+    color: #009999;
+}
+.post h1 a, .post h1 a:visited, .detail h1, .detail p, .comment strong, .comment p {
     color: #000000;
+}
+
+.comment {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 2px solid #009999;
+    box-shadow: 5px 10px #009999;
+    border-radius:6px;
+    padding: 10px;
+    text-align: center;
+    color: #009999;
 }
